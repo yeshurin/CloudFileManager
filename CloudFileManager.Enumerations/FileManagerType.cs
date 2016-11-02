@@ -1,6 +1,6 @@
 ﻿namespace CloudFileManager.Common.Enumerations
 {
-    public enum FileManagerType
+    public enum LogicalDriveType
     {
         Local
     }

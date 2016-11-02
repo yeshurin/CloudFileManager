@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}</ProjectGuid>
+    <ProjectGuid>{D1897916-DF43-4F7B-A818-539E60B51F56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CloudFileManager.Plugins.BoxNet</RootNamespace>
-    <AssemblyName>CloudFileManager.Plugins.BoxNet</AssemblyName>
+    <RootNamespace>CloudFileManager.Common.FileManager</RootNamespace>
+    <AssemblyName>CloudFileManager.Common.FileManager</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoxNetFileManager.cs" />
+    <Compile Include="Interfaces\IFileManager.cs" />
+    <Compile Include="Implementation\FileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

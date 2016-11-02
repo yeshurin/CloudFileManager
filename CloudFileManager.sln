@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{BA55
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AF97C0A4-D325-4881-BE7C-1AB24BE31236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Common.FileManager", "FileManager\CloudFileManager.Common.FileManager.csproj", "{376DE55F-59E1-4433-80D0-64E45BE9AB38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Common.FileSystem", "FileManager\CloudFileManager.Common.FileSystem.csproj", "{376DE55F-59E1-4433-80D0-64E45BE9AB38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.LocalFileSystem", "CloudFileManager.LocalFileSystem\CloudFileManager.Plugins.LocalFileSystem.csproj", "{B40C693E-5EBF-44F2-865A-6FB7C252DE5D}"
 EndProject
@@ -29,9 +29,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.Dr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.BoxNet", "CloudFileManager.BoxNet\CloudFileManager.Plugins.BoxNet.csproj", "{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Common.Enumerations", "CloudFileManager.Enumerations\CloudFileManager.Common.Enumerations.csproj", "{F63C19B9-000B-447F-B1D1-9C43908DEA17}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Core.IoC", "CloudFileManager.Core.IoC\CloudFileManager.Core.IoC.csproj", "{227298F6-0A7D-4E74-8C0D-436B2AC94648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Common.FileManager", "CloudFileManager.Common.FileManager\CloudFileManager.Common.FileManager.csproj", "{D1897916-DF43-4F7B-A818-539E60B51F56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,14 +75,14 @@ Global
 		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Release|Any CPU.Build.0 = Release|Any CPU
 		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1897916-DF43-4F7B-A818-539E60B51F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1897916-DF43-4F7B-A818-539E60B51F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1897916-DF43-4F7B-A818-539E60B51F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1897916-DF43-4F7B-A818-539E60B51F56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,7 +97,7 @@ Global
 		{F3214BC0-828D-44E3-9B79-093AB03EE8D6} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
 		{FD4900A8-13FB-4EB4-94FC-7677C2D8B0B4} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
 		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
-		{F63C19B9-000B-447F-B1D1-9C43908DEA17} = {5556A951-8AAC-4856-AAA5-CF6B0BEFB561}
 		{227298F6-0A7D-4E74-8C0D-436B2AC94648} = {705DA86F-EA77-4913-9A17-DE34671C9B45}
+		{D1897916-DF43-4F7B-A818-539E60B51F56} = {5556A951-8AAC-4856-AAA5-CF6B0BEFB561}
 	EndGlobalSection
 EndGlobal

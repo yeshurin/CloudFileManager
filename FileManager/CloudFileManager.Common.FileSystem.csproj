@@ -7,8 +7,8 @@
     <ProjectGuid>{376DE55F-59E1-4433-80D0-64E45BE9AB38}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CloudFileManager.Common.FileManager</RootNamespace>
-    <AssemblyName>CloudFileManager.Common.FileManager</AssemblyName>
+    <RootNamespace>CloudFileManager.Common.FileSystem</RootNamespace>
+    <AssemblyName>CloudFileManager.Common.FileSystem</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -41,11 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IFileManager.cs" />
-    <Compile Include="Implementation\Directory.cs" />
-    <Compile Include="Implementation\Drive.cs" />
-    <Compile Include="Implementation\File.cs" />
-    <Compile Include="Interfaces\IFileManagerItem.cs" />
+    <Compile Include="Enumerations\FileSystemType.cs" />
+    <Compile Include="Interfaces\IFileSystem.cs" />
+    <Compile Include="Implementation\LogicalDrive.cs" />
+    <Compile Include="Interfaces\IFileSystemItem.cs" />
     <Compile Include="Interfaces\ILogicalDrive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FileManager\CloudFileManager.Common.FileManager.csproj">
+    <ProjectReference Include="..\FileManager\CloudFileManager.Common.FileSystem.csproj">
       <Project>{376de55f-59e1-4433-80d0-64e45be9ab38}</Project>
-      <Name>CloudFileManager.Common.FileManager</Name>
+      <Name>CloudFileManager.Common.FileSystem</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
