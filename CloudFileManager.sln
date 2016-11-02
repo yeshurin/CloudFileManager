@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Core", "CloudFileManager.Core\CloudFileManager.Core.csproj", "{EA5DC2A7-8BBA-4CC8-A4B3-5F7B8DFE2E0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{705DA86F-EA77-4913-9A17-DE34671C9B45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5556A951-8AAC-4856-AAA5-CF6B0BEFB561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{BA551BF2-9858-415E-96D9-1768D61E91B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AF97C0A4-D325-4881-BE7C-1AB24BE31236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Common.FileManager", "FileManager\CloudFileManager.Common.FileManager.csproj", "{376DE55F-59E1-4433-80D0-64E45BE9AB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.LocalFileSystem", "CloudFileManager.LocalFileSystem\CloudFileManager.Plugins.LocalFileSystem.csproj", "{B40C693E-5EBF-44F2-865A-6FB7C252DE5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.AmazonS3", "CloudFileManager.AmazonS3\CloudFileManager.Plugins.AmazonS3.csproj", "{52126EE2-A697-44BB-AC63-6C7EFD8929CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.OneDrive", "CloudFileManager.OneDrive\CloudFileManager.Plugins.OneDrive.csproj", "{D5F20AAA-4036-4EF3-8C8E-042D58E20F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.iDrive", "CloudFileManager.iDrive\CloudFileManager.Plugins.iDrive.csproj", "{5CA276F6-4F49-406E-AE26-70D20C158225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.GoogleDrive", "CloudFileManager.GoogleDrive\CloudFileManager.Plugins.GoogleDrive.csproj", "{F3214BC0-828D-44E3-9B79-093AB03EE8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.DropBox", "CloudFileManager.DropBox\CloudFileManager.Plugins.DropBox.csproj", "{FD4900A8-13FB-4EB4-94FC-7677C2D8B0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Plugins.BoxNet", "CloudFileManager.BoxNet\CloudFileManager.Plugins.BoxNet.csproj", "{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Common.Enumerations", "CloudFileManager.Enumerations\CloudFileManager.Common.Enumerations.csproj", "{F63C19B9-000B-447F-B1D1-9C43908DEA17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFileManager.Core.IoC", "CloudFileManager.Core.IoC\CloudFileManager.Core.IoC.csproj", "{227298F6-0A7D-4E74-8C0D-436B2AC94648}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5DC2A7-8BBA-4CC8-A4B3-5F7B8DFE2E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5DC2A7-8BBA-4CC8-A4B3-5F7B8DFE2E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5DC2A7-8BBA-4CC8-A4B3-5F7B8DFE2E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5DC2A7-8BBA-4CC8-A4B3-5F7B8DFE2E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376DE55F-59E1-4433-80D0-64E45BE9AB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376DE55F-59E1-4433-80D0-64E45BE9AB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376DE55F-59E1-4433-80D0-64E45BE9AB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376DE55F-59E1-4433-80D0-64E45BE9AB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40C693E-5EBF-44F2-865A-6FB7C252DE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40C693E-5EBF-44F2-865A-6FB7C252DE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40C693E-5EBF-44F2-865A-6FB7C252DE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40C693E-5EBF-44F2-865A-6FB7C252DE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52126EE2-A697-44BB-AC63-6C7EFD8929CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52126EE2-A697-44BB-AC63-6C7EFD8929CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52126EE2-A697-44BB-AC63-6C7EFD8929CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52126EE2-A697-44BB-AC63-6C7EFD8929CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F20AAA-4036-4EF3-8C8E-042D58E20F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F20AAA-4036-4EF3-8C8E-042D58E20F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F20AAA-4036-4EF3-8C8E-042D58E20F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F20AAA-4036-4EF3-8C8E-042D58E20F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA276F6-4F49-406E-AE26-70D20C158225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA276F6-4F49-406E-AE26-70D20C158225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA276F6-4F49-406E-AE26-70D20C158225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA276F6-4F49-406E-AE26-70D20C158225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3214BC0-828D-44E3-9B79-093AB03EE8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3214BC0-828D-44E3-9B79-093AB03EE8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3214BC0-828D-44E3-9B79-093AB03EE8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3214BC0-828D-44E3-9B79-093AB03EE8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4900A8-13FB-4EB4-94FC-7677C2D8B0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4900A8-13FB-4EB4-94FC-7677C2D8B0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4900A8-13FB-4EB4-94FC-7677C2D8B0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4900A8-13FB-4EB4-94FC-7677C2D8B0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63C19B9-000B-447F-B1D1-9C43908DEA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227298F6-0A7D-4E74-8C0D-436B2AC94648}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA5DC2A7-8BBA-4CC8-A4B3-5F7B8DFE2E0C} = {705DA86F-EA77-4913-9A17-DE34671C9B45}
+		{376DE55F-59E1-4433-80D0-64E45BE9AB38} = {5556A951-8AAC-4856-AAA5-CF6B0BEFB561}
+		{B40C693E-5EBF-44F2-865A-6FB7C252DE5D} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
+		{52126EE2-A697-44BB-AC63-6C7EFD8929CE} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
+		{D5F20AAA-4036-4EF3-8C8E-042D58E20F02} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
+		{5CA276F6-4F49-406E-AE26-70D20C158225} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
+		{F3214BC0-828D-44E3-9B79-093AB03EE8D6} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
+		{FD4900A8-13FB-4EB4-94FC-7677C2D8B0B4} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
+		{DD8B2FC9-6C03-40DC-8E63-71ADB44D5D0E} = {BA551BF2-9858-415E-96D9-1768D61E91B1}
+		{F63C19B9-000B-447F-B1D1-9C43908DEA17} = {5556A951-8AAC-4856-AAA5-CF6B0BEFB561}
+		{227298F6-0A7D-4E74-8C0D-436B2AC94648} = {705DA86F-EA77-4913-9A17-DE34671C9B45}
+	EndGlobalSection
+EndGlobal
